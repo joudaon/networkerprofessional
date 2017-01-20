@@ -1,0 +1,8 @@
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Release\MailClassesSender.dll.config
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Release\MailClassesSender.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Release\MailClassesSender.pdb
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Release\MailClassesSender.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Release\MailClassesSender.Properties.Resources.resources
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Release\MailClassesSender.csproj.GenerateResource.Cache
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Release\MailClassesSender.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Release\MailClassesSender.pdb

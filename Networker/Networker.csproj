@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E01323AD-19FC-4E09-91E8-01FEC1D28D59}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Networker</RootNamespace>
+    <AssemblyName>Networker</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminITAddUser.aspx" />
+    <Content Include="AdminPage.aspx" />
+    <Content Include="AdminIT.aspx" />
+    <Content Include="AdminITUsersList.aspx" />
+    <Content Include="AdminPageGmailGuide.aspx" />
+    <Content Include="AdminPageSentMail.aspx" />
+    <Content Include="AdminPageUpdateUser.aspx" />
+    <Content Include="AdminPageUsersList.aspx" />
+    <Content Include="AppMovil.aspx" />
+    <Content Include="Contacts.aspx" />
+    <Content Include="FrontEndErrorPages\Error400.html" />
+    <Content Include="FrontEndErrorPages\Error401.html" />
+    <Content Include="FrontEndErrorPages\Error403.html" />
+    <Content Include="FrontEndErrorPages\ErrorSession.html" />
+    <Content Include="FrontEndErrorPages\Error404.html" />
+    <Content Include="FrontEndErrorPages\Error500.html" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Formacion.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\apk\01_origenesdesconocidos.png" />
+    <Content Include="images\error\astronaut.png" />
+    <Content Include="images\error\bg.jpg" />
+    <Content Include="images\error\how-did-i-get-here.png" />
+    <Content Include="images\gallery\photos\close.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\footer\footer-sprite-skype-icon.png" />
+    <Content Include="images\footer\footer-sprite-whatsapp-icon.png" />
+    <Content Include="images\gallery\camera-icon.png" />
+    <Content Include="images\gallery\video-camera-icon.png" />
+    <Content Include="images\gmailconfig\01.jpg" />
+    <Content Include="images\gmailconfig\02.jpg" />
+    <Content Include="images\gmailconfig\03.jpg" />
+    <Content Include="images\gmailconfig\04.jpg" />
+    <Content Include="images\gmailconfig\05.jpg" />
+    <Content Include="images\gmailconfig\06.jpg" />
+    <Content Include="images\gmailconfig\07.jpg" />
+    <Content Include="images\gmailconfig\08.jpg" />
+    <Content Include="images\images\CodigoQR.png" />
+    <Content Include="images\images\facebook-icon.png" />
+    <Content Include="images\images\linkedin-icon.png" />
+    <Content Include="images\images\loading.gif" />
+    <Content Include="images\images\minuslight.png" />
+    <Content Include="images\images\nav-mobile-back-sprite.png" />
+    <Content Include="images\images\share.png" />
+    <Content Include="images\images\signout.png" />
+    <Content Include="images\images\twitter-icon.png" />
+    <Content Include="images\images\youtube-icon.png" />
+    <Content Include="images\gallery\photos\loading.gif" />
+    <Content Include="images\logos\networker-logo-big.png" />
+    <Content Include="images\logos\networker-logo-extra-small.png" />
+    <Content Include="images\logos\networker-logo-small.png" />
+    <Content Include="images\logos\networker-logo-white.png" />
+    <Content Include="images\logos\networker-logo.png" />
+    <Content Include="images\logos\networker-logo2-white.png" />
+    <Content Include="images\logos\networker-logo2.png" />
+    <Content Include="images\images\bubblearrow.png" />
+    <Content Include="images\images\bubblearrowtop.png" />
+    <Content Include="images\footer\footer-bubbles.png" />
+    <Content Include="images\footer\footer-gradient-mobile.png" />
+    <Content Include="images\footer\footer-list-splitter.png" />
+    <Content Include="images\footer\footer-sprite-social-icons.png" />
+    <Content Include="images\header\header-xxl-bubbles.jpg" />
+    <Content Include="images\header\header-xxl-diagonal-small.png" />
+    <Content Include="images\header\header-xxl-diagonal.png" />
+    <Content Include="images\header\header-xxl-grad-1px-repeat.jpg" />
+    <Content Include="images\images\item-border-bottom.png" />
+    <Content Include="images\images\label-m-shadow.png" />
+    <Content Include="images\images\label-xxl-line575.png" />
+    <Content Include="images\images\label-xxl-shadow575.png" />
+    <Content Include="images\images\nav-mobile-arrow-sprite.png" />
+    <Content Include="images\images\nav-mobile-burger-sprite.png" />
+    <Content Include="images\images\nav-secondary-vertical-shadow.png" />
+    <Content Include="images\images\pluslight.png" />
+    <Content Include="images\images\primary-nav-border.png" />
+    <Content Include="images\images\promo-cta-arrow.png" />
+    <Content Include="images\images\radio-off.png" />
+    <Content Include="images\header\tool-icon-search-sprite.png" />
+    <Content Include="images\gallery\photos\next.png" />
+    <Content Include="images\gallery\photos\prev.png" />
+    <Content Include="images\tiles\tile-1-big.jpg" />
+    <Content Include="images\tiles\tile-1-small.jpg" />
+    <Content Include="images\tiles\tile-2-big.jpg" />
+    <Content Include="images\tiles\tile-2-small.jpg" />
+    <Content Include="images\tiles\tile-3-big.jpg" />
+    <Content Include="images\tiles\tile-3-small.jpg" />
+    <Content Include="images\tiles\tile-4-big.jpg" />
+    <Content Include="images\tiles\tile-4-small.jpg" />
+    <Content Include="images\tiles\tile-5-big.jpg" />
+    <Content Include="images\tiles\tile-5-small.jpg" />
+    <Content Include="images\tiles\tile-6-big.jpg" />
+    <Content Include="images\tiles\tile-6-small.jpg" />
+    <Content Include="images\tiles\tile-7-big.jpg" />
+    <Content Include="images\tiles\tile-7-small.jpg" />
+    <Content Include="images\university\formacion-mapa.gif" />
+    <Content Include="images\university\universidad-complutense.png" />
+    <Content Include="images\university\universidad-deusto.gif" />
+    <Content Include="images\gallery\videos\thumb-big-5hechoscientficos.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-metabolitos.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-moleculasredox.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-networker.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-origenasea.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-queescienciaasea.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-tecnologiaasea.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-testimonioamparo.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-testimoniosandra.jpg" />
+    <Content Include="images\gallery\videos\thumb-big-university.jpg" />
+    <Content Include="images\gallery\videos\thumb-big.jpg" />
+    <Content Include="LoginPage.aspx" />
+    <Content Include="MultimediaGalleryPhotos.aspx" />
+    <Content Include="MultimediaGalleryVideos.aspx" />
+    <Content Include="scripts\kc.fab.js" />
+    <Content Include="scripts\lightbox.js" />
+    <Content Include="styles\errorpage.css" />
+    <Content Include="styles\font-awesome.min.css" />
+    <Content Include="styles\jquery.dataTables.css" />
+    <Content Include="MultimediaGallery.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="fonts\frutiger-45light.woff" />
+    <Content Include="fonts\frutiger-46lightitalic.woff" />
+    <Content Include="fonts\frutiger-55roman.woff" />
+    <Content Include="fonts\frutiger-65bold.woff" />
+    <Content Include="fonts\frutiger-45light.ttf" />
+    <Content Include="fonts\frutiger-46lightitalic.ttf" />
+    <Content Include="fonts\frutiger-55roman.ttf" />
+    <Content Include="fonts\frutiger-65bold.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\arvixe.prod.pubxml" />
+    <None Include="Properties\PublishProfiles\arvixe.staging.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\frutiger-45light.svg" />
+    <Content Include="fonts\frutiger-46lightitalic.svg" />
+    <Content Include="fonts\frutiger-55roman.svg" />
+    <Content Include="fonts\frutiger-65bold.svg" />
+    <Content Include="images\footer\Banner_Footer.png" />
+    <Content Include="scripts\bootstrap-toggle.min.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\accordion-content.js" />
+    <Content Include="scripts\dataTables.bootstrap.js" />
+    <Content Include="scripts\jquery.blockUI.js" />
+    <Content Include="scripts\jquery.dataTables.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\jquery.nestedaccordion.js" />
+    <Content Include="scripts\jquery.validate.js" />
+    <Content Include="scripts\modernizr.js" />
+    <Content Include="scripts\general.js" />
+    <Content Include="SentForm.aspx" />
+    <Content Include="AdminITSentMail.aspx" />
+    <Content Include="styles\background.css" />
+    <Content Include="styles\bootstrap-toggle.min.css" />
+    <Content Include="styles\bootstrap.min.css" />
+    <Content Include="styles\dataTables.bootstrap.css" />
+    <Content Include="styles\fonts.css" />
+    <Content Include="styles\global.css" />
+    <Content Include="styles\general.css" />
+    <Content Include="styles\kc.fab.css" />
+    <Content Include="styles\lightbox.css" />
+    <Content Include="styles\numberlist.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminITAddUser.aspx.cs">
+      <DependentUpon>AdminITAddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminITAddUser.aspx.designer.cs">
+      <DependentUpon>AdminITAddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminIT.aspx.cs">
+      <DependentUpon>AdminIT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminIT.aspx.designer.cs">
+      <DependentUpon>AdminIT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminITUsersList.aspx.cs">
+      <DependentUpon>AdminITUsersList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminITUsersList.aspx.designer.cs">
+      <DependentUpon>AdminITUsersList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPageGmailGuide.aspx.cs">
+      <DependentUpon>AdminPageGmailGuide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPageGmailGuide.aspx.designer.cs">
+      <DependentUpon>AdminPageGmailGuide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPageSentMail.aspx.cs">
+      <DependentUpon>AdminPageSentMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPageSentMail.aspx.designer.cs">
+      <DependentUpon>AdminPageSentMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPageUpdateUser.aspx.cs">
+      <DependentUpon>AdminPageUpdateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPageUpdateUser.aspx.designer.cs">
+      <DependentUpon>AdminPageUpdateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPageUsersList.aspx.cs">
+      <DependentUpon>AdminPageUsersList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPageUsersList.aspx.designer.cs">
+      <DependentUpon>AdminPageUsersList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppMovil.aspx.cs">
+      <DependentUpon>AppMovil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppMovil.aspx.designer.cs">
+      <DependentUpon>AppMovil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.aspx.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacts.aspx.designer.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formacion.aspx.cs">
+      <DependentUpon>Formacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formacion.aspx.designer.cs">
+      <DependentUpon>Formacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MultimediaGallery.aspx.cs">
+      <DependentUpon>MultimediaGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultimediaGallery.aspx.designer.cs">
+      <DependentUpon>MultimediaGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultimediaGalleryPhotos.aspx.cs">
+      <DependentUpon>MultimediaGalleryPhotos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultimediaGalleryPhotos.aspx.designer.cs">
+      <DependentUpon>MultimediaGalleryPhotos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultimediaGalleryVideos.aspx.cs">
+      <DependentUpon>MultimediaGalleryVideos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultimediaGalleryVideos.aspx.designer.cs">
+      <DependentUpon>MultimediaGalleryVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SentForm.aspx.cs">
+      <DependentUpon>SentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentForm.aspx.designer.cs">
+      <DependentUpon>SentForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminITSentMail.aspx.cs">
+      <DependentUpon>AdminITSentMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminITSentMail.aspx.designer.cs">
+      <DependentUpon>AdminITSentMail.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MailClassesSender\MailClassesSender.csproj">
+      <Project>{906ea1e9-cfee-43ea-9db2-5564d17d0182}</Project>
+      <Name>MailClassesSender</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16416</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:16416/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

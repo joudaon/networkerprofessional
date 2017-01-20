@@ -1,0 +1,243 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Networker.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="networker professional, networker">
+    <meta name="description" content="Networker professional">
+
+    <meta property="og:url" name="appurl" content="" />
+    <meta property="og:title" name="apptitle" content="" />
+    <meta property="og:description" name="appdescription" content="" />
+    <meta property="og:image" name="appimage" content="" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <title>Networker Professional</title>
+
+    <link rel="stylesheet" href="styles/fonts.css" type="text/css">
+    <link rel="stylesheet" href="styles/global.css" type="text/css">
+    <link rel="stylesheet" href="styles/general.css" type="text/css">
+    <link rel="stylesheet" href="styles/background.css" type="text/css">
+    <link rel="stylesheet" href="styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/kc.fab.css" />
+
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/modernizr.js" type="text/javascript"></script>
+    <script src="scripts/general.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script>
+    <script src="scripts/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="scripts/kc.fab.js"></script>
+    <script src="scripts/jquery.validate.js" async="" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body class="business-contact-us">
+    <div class="kc_fab_wrapper">
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            function getCookie(name) {
+                var re = new RegExp(name + "=([^;]+)");
+                var value = re.exec(document.cookie);
+                return (value != null) ? unescape(value[1]) : null;
+            }
+
+            var links = [
+            {
+                "bgcolor": "#03A9F4",
+                "icon": "<img src='images/images/share.png' style='margin-top: 2px; margin-right: 2px;'/>",
+                "title": "Partillar"
+            },
+            {
+                "url": "https://www.facebook.com/sharer/sharer.php?u=http://www.networkerprofessional.net/Default.aspx?id=" + getCookie("UserIdCookies"),
+                "bgcolor": "#3B5998",
+                "color": "#fffff",
+                "icon": "<i class='fa fa-facebook'></i>",
+                "target": "_blank",
+                "title": "Facebook"
+            },
+                {
+                    "url": "https://twitter.com/home?status=http://www.networkerprofessional.net/Default.aspx?id=" + getCookie("UserIdCookies"),
+                    "bgcolor": "#00ACEE",
+                    "color": "#fffff",
+                    "icon": "<i class='fa fa-twitter'></i>",
+                    "target": "_blank",
+                    "title": "Twitter"
+                },
+                {
+                    "url": "https://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.networkerprofessional.net/Default.aspx?id=" + getCookie("UserIdCookies") + "&title=NetWorker%20Professional&summary=Tarjeta%20Virtual%20de%20" + <%#UserName %> + "&source=",
+                    "bgcolor": "#006699",
+                    "color": "#fffff",
+                    "icon": "<i class='fa fa-linkedin'></i>",
+                    "target": "_blank",
+                    "title": "LinkedIn"
+                },
+                {
+                    "url": "whatsapp://send/?text=http://www.networkerprofessional.net/Default.aspx?id=" + getCookie("UserIdCookies"),
+                    "bgcolor": "#189D0E",
+                    "color": "#fffff",
+                    "icon": "<i class='fa fa-whatsapp'></i>",
+                    "title": "WhatsApp"
+                }
+            ]
+
+            $('.kc_fab_wrapper').kc_fab(links);
+
+        })
+    </script>
+    <div id="asea-page-wrapper">
+        <header>
+            <div id="header-consumer" class="header">
+                <%--Barra Azul de arriba--%>
+                <div class="toolbar">
+                    <div class="grid-inner">
+                        <ul class="tools">
+                            <li id="header-tool-signin">
+                                <img id="logoffimage" runat="server" visible="false" src="images/images/signout.png" style="margin-bottom: 2px;">&nbsp;
+                                <a id="logoff" runat="server" visible="false" class="signInLink" href="#" title="Salir de su área personal">Desconectarse</a>&nbsp; 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <nav>
+                    <div class="nav-primary">
+                        <div class="grid-inner">
+                            <div class="mobile-nav-back is-mobile" data-nav="#nav-content">
+                                <a href="javascript:history.go(-1);"></a>
+                            </div>
+                            <div class="nav-mobile is-mobile">
+                                <ul>
+                                </ul>
+                            </div>
+                            <div class="mobile-nav-toggle is-mobile" data-nav="#nav-content">
+                                <a href="#"></a>
+                            </div>
+                            <div class="nav-consumer">
+                                <ul class="business">
+                                    <li id="pn1"><a href="LoginPage.aspx">
+                                        <dl>
+                                            <dt>Área personal </dt>
+                                            <dd>Entra en tu área personal </dd>
+                                        </dl>
+                                    </a>
+                                    </li>
+                                    <li id="pn2"><a href="AppMovil.aspx">
+                                        <dl>
+                                            <dt>App Móvil </dt>
+                                            <dd>Descarga la app en tu móvil </dd>
+                                        </dl>
+                                    </a>
+                                    </li>
+                                    <li id="pn3"><a href="Contacts.aspx">
+                                        <dl>
+                                            <dt>Contactos </dt>
+                                            <dd>Contáctanos </dd>
+                                        </dl>
+                                    </a>
+                                    </li>
+                                    <li id="pn4" class="has-submenu"><a href="#">
+                                        <dl>
+                                            <dt>Nuestra Empresa </dt>
+                                            <dd>Con quien trabajamos </dd>
+                                        </dl>
+                                    </a>
+                                        <ul style="display: none;">
+                                            <li><a id="oficinavirtual" runat="server" href="#" target="_blank">ASEA Partner</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <asp:ContentPlaceHolder ID="bodyholder" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <script src="scripts/jquery.nestedaccordion.js" type="text/javascript"></script>
+        <script src="scripts/accordion-content.js" type="text/javascript"></script>
+    </div>
+    <footer>
+        <div id="asea-footer">
+            <div class="grid-inner">
+                <div class="nav full-nav">
+                    <dl>
+                        <dt>Networker Professional </dt>
+                        <dd>
+                            <a href="#">Página Oficial</a>
+                        </dd>
+                        <dd>
+                            <a href="Contacts.aspx">Contactos</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Empresa ASEA </dt>
+                        <dd>
+                            <a href="http://aseaglobal.com/es-es/p%c3%a1ginadeinicio.aspx" target="_blank">Página Oficial</a>
+                        </dd>
+                        <dd>
+                            <a href="http://aseaglobal.com/es-es/quiénessomos.aspx" target="_blank">Quién somos</a>
+                        </dd>
+                        <dd>
+                            <a href="http://aseaglobal.com/es-es/quéhacemos.aspx" target="_blank">Qué hacemos</a>
+                        </dd>
+                        <dd>
+                            <a href="http://aseaglobal.com/es-es/quepuedeshacer.aspx" target="_blank">Qué puedes hacer</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Contácto </dt>
+                        <dd class="social whatsapp" id="telephoneVisible" runat="server">
+                            <a id="telephone" runat="server" href="#">Telefono</a>
+                        </dd>
+                        <dd class="social skype" id="skypeVisible" runat="server">
+                            <a id="skypeUser" runat="server" href="#" target="_blank">Skype</a>
+                        </dd>
+                    </dl>
+                    <dl class="last">
+                        <dt>Social </dt>
+                        <dd class="social facebook" id="facebookVisible" runat="server">
+                            <a id="facebookURL" runat="server" href="#" target="_blank">Facebook</a>
+                        </dd>
+                        <dd class="social twitter" id="twitterVisible" runat="server">
+                            <a id="twitterURL" runat="server" href="#" target="_blank">Twitter</a>
+                        </dd>
+                        <dd class="social linkedin" id="linkedinVisible" runat="server">
+                            <a id="linkedinURL" runat="server" href="#" target="_blank">Linkedin</a>
+                        </dd>
+                        <dd class="social youtube" id="youtubeVisible" runat="server">
+                            <a id="youtubeURL" runat="server" href="#" target="_blank">YouTube</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="nav mobile-nav">
+                    <ul class="site-nav">
+                        <li><a href="#" target="_blank">NetWorker Professional</a></li>
+                    </ul>
+                    <ul class="social">
+                        <li class="whatsapp" id="telephoneMobileVisible" runat="server"><a id="telephoneMobile" runat="server" href="#">Telefono</a></li>
+                        <li class="skype" id="skypeUserMobileVisible" runat="server"><a id="skypeUserMobile" runat="server" href="#">Skype</a> </li>
+                        <li class="facebook" id="facebookURLMobileVisible" runat="server"><a id="facebookURLMobile" runat="server" href="#" target="_blank">Facebook</a> </li>
+                        <%--<li class="linkedin"><a id="linkedinURLMobile" runat="server" href="#" target="_blank">Linkedin</a> </li>--%>
+                    </ul>
+                </div>
+                <div id="asea-footer-secondary">
+                    <div class="asea-links">
+                        <p>© 2016 Relative Software</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

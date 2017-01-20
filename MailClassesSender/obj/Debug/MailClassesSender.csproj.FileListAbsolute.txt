@@ -1,0 +1,53 @@
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\obj\Debug\ResolveAssemblyReference.cache
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\obj\Debug\ResGen.read.1.tlog
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\obj\Debug\ResGen.write.1.tlog
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\bin\Debug\MailClassesSender.dll
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\bin\Debug\MailClassesSender.pdb
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\bin\Debug\MailServiceData.dll
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\bin\Debug\MailServiceData.pdb
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\obj\Debug\MailClassesSender.Properties.Resources.resources
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\obj\Debug\MailClassesSender.dll
+D:\TFS_Projects\docuplus\Questionnaire ALSTOM\MailClassesSender\obj\Debug\MailClassesSender.pdb
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\obj\Debug\MailClassesSender.Properties.Resources.resources
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\obj\Debug\MailClassesSender.dll
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\obj\Debug\MailClassesSender.pdb
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\bin\Debug\MailClassesSender.dll
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\bin\Debug\MailClassesSender.pdb
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\bin\Debug\MailServiceData.dll
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\bin\Debug\MailServiceData.pdb
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\bin\Debug\MailClassesSender.dll.config
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\obj\Debug\MailClassesSender.csprojResolveAssemblyReference.cache
+D:\TFS_Projects\RePro\AguasValencia\MailClassesSender\obj\Debug\MailClassesSender.csproj.GenerateResource.Cache
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Debug\MailClassesSender.dll.config
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Debug\MailClassesSender.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Debug\MailClassesSender.pdb
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.Properties.Resources.resources
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.csproj.GenerateResource.Cache
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.pdb
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Debug\MailClassesSender.dll.config
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Debug\MailClassesSender.dll
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\bin\Debug\MailClassesSender.pdb
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.Properties.Resources.resources
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.csproj.GenerateResource.Cache
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.dll
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\Networker\MailClassesSender\obj\Debug\MailClassesSender.pdb
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\MailClassesSender.dll.config
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\MailClassesSender.dll
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\MailClassesSender.pdb
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.csprojResolveAssemblyReference.cache
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.Properties.Resources.resources
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.csproj.GenerateResource.Cache
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.dll
+C:\Users\Uda\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.pdb
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\MailClassesSender.dll.config
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\MailClassesSender.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\MailClassesSender.pdb
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.Properties.Resources.resources
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.csproj.GenerateResource.Cache
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.dll
+C:\Users\paulo\Documents\Visual Studio 2015\Projects\networkerprofessional\MailClassesSender\obj\Debug\MailClassesSender.pdb

@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NetWorkerMailHost" xml:space="preserve">
+    <value>mail.networkerprofessional.net</value>
+  </data>
+  <data name="NetWorkerGlobalMailPassword" xml:space="preserve">
+    <value>MarcoJon749#01</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetWorkerGlobalMailBody" xml:space="preserve">
+    <value>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;NetWorker Professional&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div style="width:100%;" align="center"&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+  &lt;tr&gt;
+    &lt;td align="center" valign="top" style="background-color:#53636e;" bgcolor="#53636e;"&gt;   
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;table width="583" border="0" cellspacing="0" cellpadding="0"&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;img src="cid:Header" width="583" height="118"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="left" valign="top"&gt;
+			&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top"&gt;&lt;img src="cid:NetWorkerLogo" width="120" height="75" vspace="10"&gt;&lt;/td&gt;&lt;br&gt;
+              &lt;/tr&gt;
+			  &lt;tr&gt;
+			  &lt;td width="100%" style="font-size:11px; color:#3482ad; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;&lt;br&gt;
+					 Estimado [NOMBRE]
+					&lt;br&gt;&lt;/b&gt;
+			  &lt;/td&gt;
+			  &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+                &lt;br&gt;
+	[BODYTEXT]			  
+ &lt;/tr&gt;
+&lt;/table&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+ &lt;tr&gt;
+ &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+ &lt;br/&gt;      &lt;strong&gt;Atentamente       
+ &lt;br/&gt;       &lt;br/&gt;  
+ NetWorker Professional        
+ &lt;br/&gt;         &lt;/strong&gt; 
+				&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&amp;nbsp;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;&lt;/td&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#3d90bd" style="background-color:#3d90bd;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td height="50" valign="middle" style="color:#FFFFFF; font-size:11px; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;br&gt;&lt;b&gt;NetWorker Professional&lt;/b&gt;&lt;br&gt;&lt;br&gt; Email: &lt;a href="mailto:global@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;global@networkerprofessional.net&lt;/a&gt;&lt;br/&gt; Soporte: &lt;a href="mailto:support@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;support@networkerprofessional.net&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;
+       &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
+    &lt;br&gt;
+    &lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="NetWorkerGlobalMailFrom" xml:space="preserve">
+    <value>global@networkerprofessional.net</value>
+  </data>
+  <data name="NetWorkerGlobalMailSubject" xml:space="preserve">
+    <value>Pedido de Información</value>
+  </data>
+  <data name="NetWorkerLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NetWorkerLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetWorkerSupportMailBody" xml:space="preserve">
+    <value>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;NetWorker Professional&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div style="width:100%;" align="center"&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+  &lt;tr&gt;
+    &lt;td align="center" valign="top" style="background-color:#53636e;" bgcolor="#53636e;"&gt;   
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;table width="583" border="0" cellspacing="0" cellpadding="0"&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;img src="cid:Header" width="583" height="118"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="left" valign="top"&gt;
+			&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top"&gt;&lt;img src="cid:NetWorkerLogo" width="120" height="75" vspace="10"&gt;&lt;/td&gt;&lt;br&gt;
+              &lt;/tr&gt;
+			  &lt;tr&gt;
+			  &lt;td width="100%" style="font-size:11px; color:#3482ad; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;&lt;br&gt;
+					 Estimado NetWorker
+					&lt;br&gt;&lt;/b&gt;
+			  &lt;/td&gt;
+			  &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+                &lt;br&gt;
+Para el alta de su pagina personal de NetWorker Professional es necesario que nos envie la siguiente información para esta direccion de correo:
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;global@networkerprofessional.net&lt;/center&gt;
+&lt;br&gt;
+&lt;br&gt;
+Datos:
+&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;Obligatorios:&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+Foto
+&lt;br&gt;
+Nombre:
+&lt;br&gt;
+Apellidos:
+&lt;br&gt;
+Email:
+&lt;br&gt;
+Telefono móvil:
+&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;Opcionales:&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+Oficina Virtual ASEA:
+&lt;br&gt;
+Usuario de Skype(no el telefono):
+&lt;br&gt;
+Pagina Facebook:
+&lt;br&gt;
+Pagina Twitter:
+&lt;br&gt;
+Pagina Linkedin:
+&lt;br&gt;
+Canal YouTube:
+&lt;br&gt;
+&lt;br&gt;
+La pagina sera activada en el momento del pago de 20 euros en la cuenta bancaria:
+&lt;br&gt;
+&lt;br&gt;
+ING DIRECT&lt;br&gt;
+ES51 1465 0100 9117 2087 2620 
+&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;No olvidar poner el nombre completo en la descripcion de la transferencia para proceder a la activación de su cuenta.&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;La pagina tiene un coste &lt;u&gt;anual&lt;/u&gt; para mantenimiento de 10 euros.&lt;/center&gt;
+&lt;br&gt;
+&lt;br&gt;	
+ &lt;/tr&gt;
+&lt;/table&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+ &lt;tr&gt;
+ &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+ &lt;br/&gt;      &lt;strong&gt;Atentamente       
+ &lt;br/&gt;       &lt;br/&gt;  
+ Departamento IT NetWorker Professional        
+ &lt;br/&gt;         &lt;/strong&gt; 
+				&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&amp;nbsp;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;&lt;/td&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#3d90bd" style="background-color:#3d90bd;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td height="50" valign="middle" style="color:#FFFFFF; font-size:11px; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;br&gt;&lt;b&gt;NetWorker Professional&lt;/b&gt;&lt;br&gt;&lt;br&gt; Email: &lt;a href="mailto:global@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;global@networkerprofessional.net&lt;/a&gt;&lt;br/&gt; Soporte: &lt;a href="mailto:support@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;support@networkerprofessional.net&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;
+       &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
+    &lt;br&gt;
+    &lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="NetWorkerSupportMailFrom" xml:space="preserve">
+    <value>support@networkerprofessional.net</value>
+  </data>
+  <data name="NetWorkerSupportMailPassword" xml:space="preserve">
+    <value>MarcoJon749#01</value>
+  </data>
+  <data name="NetWorkerSupportMailSubject" xml:space="preserve">
+    <value>Nueva cuenta NetWorker Professional</value>
+  </data>
+  <data name="NetWorkerNewUserMailBody" xml:space="preserve">
+    <value>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;NetWorker Professional&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div style="width:100%;" align="center"&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+  &lt;tr&gt;
+    &lt;td align="center" valign="top" style="background-color:#53636e;" bgcolor="#53636e;"&gt;   
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;table width="583" border="0" cellspacing="0" cellpadding="0"&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;img src="cid:Header" width="583" height="118"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="left" valign="top"&gt;
+			&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top"&gt;&lt;img src="cid:NetWorkerLogo" width="120" height="75" vspace="10"&gt;&lt;/td&gt;&lt;br&gt;
+              &lt;/tr&gt;
+			  &lt;tr&gt;
+			  &lt;td width="100%" style="font-size:11px; color:#3482ad; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;&lt;br&gt;
+					 Estimado [NOMBRE]
+					&lt;br&gt;&lt;/b&gt;
+			  &lt;/td&gt;
+			  &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+                &lt;br&gt;
+&lt;h1&gt;Bienvenido a NetWorker Professional&lt;/h1&gt;
+&lt;br&gt;
+&lt;u&gt;Para acceder a su pagina:&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+[NETWORKERURL]
+&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;Para acceder a su área personal en la aplicación Networker Professional&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+Email: [EMAIL]
+&lt;br&gt;
+Contraseña: [PASSWORDAREA] (cambie la contraseña cuando pueda)
+&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;Su cuenta de correo personal Networker Professional:&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+Email: [EMAIL]
+&lt;br&gt;
+Contraseña: [PASSWORDEMAIL] (cambie la contraseña cuando pueda)
+&lt;br&gt;
+&lt;br&gt;
+Para acceder a su correo: http://mail.networkerprofessional.net/squirrelmail/src/login.php
+&lt;br&gt;
+&lt;br&gt;
+Para configurar el correo en su móvil, entre en su área personal donde puede consultar nuestra guía.
+&lt;br&gt;
+&lt;br&gt;
+&lt;u&gt;Para instalar la aplicación móvil necesita introduzir:&lt;/u&gt;
+&lt;br&gt;
+&lt;br&gt;
+Id de Usuario: [USERID]
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;Para alguna incidencia por favor entre en contacto a través del correo:&lt;/center&gt;
+&lt;br&gt;
+&lt;center&gt;support@networkerprofessional.net&lt;/center&gt;
+&lt;br&gt;
+&lt;center&gt;La pagina solo sera activada en el momento que se efectúe el pago&lt;/center&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;	
+ &lt;/tr&gt;
+&lt;/table&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+ &lt;tr&gt;
+ &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+ &lt;br/&gt;      &lt;strong&gt;Atentamente       
+ &lt;br/&gt;       &lt;br/&gt;  
+ Departamento IT NetWorker Professional        
+ &lt;br/&gt;         &lt;/strong&gt; 
+				&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&amp;nbsp;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;&lt;/td&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#3d90bd" style="background-color:#3d90bd;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td height="50" valign="middle" style="color:#FFFFFF; font-size:11px; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;br&gt;&lt;b&gt;NetWorker Professional&lt;/b&gt;&lt;br&gt;&lt;br&gt; Email: &lt;a href="mailto:global@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;global@networkerprofessional.net&lt;/a&gt;&lt;br/&gt; Soporte: &lt;a href="mailto:support@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;support@networkerprofessional.net&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;
+       &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
+    &lt;br&gt;
+    &lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="NetWorkerNewUserMailSubject" xml:space="preserve">
+    <value>Bienvenido a NetWorker Professional</value>
+  </data>
+  <data name="NetWorkerPersonalMailBody" xml:space="preserve">
+    <value>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;NetWorker Professional&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div style="width:100%;" align="center"&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+  &lt;tr&gt;
+    &lt;td align="center" valign="top" style="background-color:#53636e;" bgcolor="#53636e;"&gt;   
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;table width="583" border="0" cellspacing="0" cellpadding="0"&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;img src="cid:Header" width="583" height="118"&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#FFFFFF" style="background-color:#FFFFFF;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td align="left" valign="top"&gt;
+			&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top"&gt;&lt;img src="cid:NetWorkerLogo" width="120" height="75" vspace="10"&gt;&lt;/td&gt;&lt;br&gt;
+              &lt;/tr&gt;
+			  &lt;tr&gt;
+			  &lt;td width="100%" style="font-size:11px; color:#3482ad; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;b&gt;&lt;br&gt;
+					 Estimado [NOMBRE]
+					&lt;br&gt;&lt;/b&gt;
+			  &lt;/td&gt;
+			  &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+                &lt;br&gt;
+	[BODYTEXT]			  
+ &lt;/tr&gt;
+&lt;/table&gt;
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+ &lt;tr&gt;
+ &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&lt;b&gt;
+ &lt;br/&gt;      &lt;strong&gt;Atentamente       
+ &lt;br/&gt;       &lt;br/&gt;  
+ [NAMENETWORKER]        
+ &lt;br/&gt;         &lt;/strong&gt; 
+				&lt;br&gt;&lt;br&gt;&lt;/b&gt;
+&lt;br&gt;
+&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#525252;"&gt;&amp;nbsp;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;&lt;/td&gt;
+            &lt;td width="35" align="left" valign="top"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td align="left" valign="top" bgcolor="#3d90bd" style="background-color:#3d90bd;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+          &lt;tr&gt;
+            &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;td height="50" valign="middle" style="color:#FFFFFF; font-size:11px; font-family:Arial, Helvetica, sans-serif;"&gt;&lt;br&gt;&lt;b&gt;NetWorker Professional&lt;/b&gt;&lt;br&gt;&lt;br&gt; Email: &lt;a href="mailto:global@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;global@networkerprofessional.net&lt;/a&gt;&lt;br/&gt; Soporte: &lt;a href="mailto:support@networkerprofessional.net" style="color:#FFFFFF; text-decoration:none"&gt;support@networkerprofessional.net&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;
+       &lt;td width="35"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
+    &lt;br&gt;
+    &lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,125 @@
+
+/*Tile 1*/
+
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-1 {
+    background-image: url(../images/tiles/tile-1-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-1, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-1, .no-js .business-contact-us .desktop-fragments-promoSShort-1 {
+        background-image: url(../images/tiles/tile-1-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-1, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-1, .no-js .business-contact-us .desktop-fragments-promoSShort-1 {
+        background-image: url(../images/tiles/tile-1-small.jpg);
+    }
+}
+
+/*Tile 2*/
+
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-2 {
+    background-image: url(../images/tiles/tile-2-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-2, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-2, .no-js .business-contact-us .desktop-fragments-promoSShort-2 {
+        background-image: url(../images/tiles/tile-2-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-2, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-2, .no-js .business-contact-us .desktop-fragments-promoSShort-2 {
+        background-image: url(../images/tiles/tile-2-small.jpg);
+    }
+}
+
+/*Tile 3*/
+
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-3 {
+    background-image: url(../images/tiles/tile-3-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-3, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-3, .no-js .business-contact-us .desktop-fragments-promoSShort-3 {
+        background-image: url(../images/tiles/tile-3-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-3, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-3, .no-js .business-contact-us .desktop-fragments-promoSShort-3 {
+        background-image: url(../images/tiles/tile-3-small.jpg);
+    }
+}
+
+/*Tile 4*/
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-4 {
+    background-image: url(../images/tiles/tile-4-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-4, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-4, .no-js .business-contact-us .desktop-fragments-promoSShort-4 {
+        background-image: url(../images/tiles/tile-4-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-4, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-4, .no-js .business-contact-us .desktop-fragments-promoSShort-4 {
+        background-image: url(../images/tiles/tile-4-small.jpg);
+    }
+}
+
+/*Tile 5*/
+
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-5 {
+    background-image: url(../images/tiles/tile-5-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-5, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-5, .no-js .business-contact-us .desktop-fragments-promoSShort-5 {
+        background-image: url(../images/tiles/tile-5-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-5, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-5, .no-js .business-contact-us .desktop-fragments-promoSShort-5 {
+        background-image: url(../images/tiles/tile-5-small.jpg);
+    }
+}
+
+/*Tile 6*/
+
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-6 {
+    background-image: url(../images/tiles/tile-6-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-6, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-6, .no-js .business-contact-us .desktop-fragments-promoSShort-6 {
+        background-image: url(../images/tiles/tile-6-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-6, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-6, .no-js .business-contact-us .desktop-fragments-promoSShort-6 {
+        background-image: url(../images/tiles/tile-6-small.jpg);
+    }
+}
+
+/*Tile 7*/
+
+.backgroundsize .business-contact-us .desktop-fragments-promoSShort-7 {
+    background-image: url(../images/tiles/tile-7-big.jpg);
+}
+
+@media screen and (min-width:575px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-7, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-7, .no-js .business-contact-us .desktop-fragments-promoSShort-7 {
+        background-image: url(../images/tiles/tile-7-small.jpg);
+    }
+}
+
+@media screen and (min-width:815px) {
+    .backgroundsize .business-contact-us .desktop-fragments-promoSShort-7, .no-backgroundsize .business-contact-us .desktop-fragments-promoSShort-7, .no-js .business-contact-us .desktop-fragments-promoSShort-7 {
+        background-image: url(../images/tiles/tile-7-small.jpg);
+    }
+}
